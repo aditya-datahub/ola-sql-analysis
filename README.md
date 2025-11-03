@@ -78,6 +78,7 @@ ola-sql-analysis/
 ├── 📘 README.md               # Project documentation
 └── ⚖️ LICENSE                 # MIT License
 
+```
 ---
 
 ## 🚀 How to Use
