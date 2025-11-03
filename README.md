@@ -1,4 +1,4 @@
-# 🚖 Ola SQL Analysis
+# <h1 align="center">🚖 Ola SQL Analysis</h1>
 
 A **SQL-based data analysis project** on Ola ride booking data to uncover insights on ride trends, cancellations, payment methods, and customer behavior.
 
@@ -17,6 +17,15 @@ The goal is to extract actionable business insights such as:
 
 ---
 
+## 🛠️ Tech Stack
+
+- **Language:** SQL  
+- **Database:** MySQL  
+- **Tools Used:** MySQL Workbench / PostgreSQL / SQLite  
+- **Dataset:** Bookings.csv (Ola ride booking data)
+
+---
+
 ## 🧠 Key Objectives
 
 1. Identify patterns in **ride demand and cancellations**.  
@@ -28,7 +37,7 @@ The goal is to extract actionable business insights such as:
 
 ## 🗂️ Dataset
 
-The dataset Bookings.csv contains ride-level booking details from Ola. Below are the key columns used in this analysis:
+The dataset **Bookings.csv** contains ride-level booking details from Ola. Below are the key columns used in this analysis:
 
 | Column Name | Description |
 |--------------|-------------|
@@ -42,6 +51,21 @@ The dataset Bookings.csv contains ride-level booking details from Ola. Below are
 | Booking_Status | Completed / Cancelled |
 | Customer_Rating | Rating given by customer |
 | Ride_Date | Date of booking |
+
+---
+
+## 🔍 Queries Covered
+
+1. Retrieve all successful bookings  
+2. Find average ride distance by vehicle type  
+3. Count total rides canceled by customers  
+4. Identify top 5 customers by total rides  
+5. Analyze rides canceled by drivers (personal/car issues)  
+6. Find max and min driver ratings for Prime Sedan  
+7. Retrieve rides paid via UPI  
+8. Calculate average customer rating per vehicle type  
+9. Calculate total booking value for successful rides  
+10. List incomplete rides and their reasons
 
 ---
 
@@ -68,7 +92,7 @@ The dataset Bookings.csv contains ride-level booking details from Ola. Below are
 
 ---
 
-### 🗂️ File Structure
+## 🗂️ File Structure
 
 ```bash
 ola-sql-analysis/
@@ -90,3 +114,16 @@ ola-sql-analysis/
 2. Import the dataset (Bookings.csv) into your SQL environment (e.g., MySQL, PostgreSQL, or SQLite).
 
 3. Run the queries in ola_data_analysis.sql to explore insights and results.
+
+---
+
+🧾 Conclusion
+
+This SQL project provides key insights into Ola’s operational trends, customer behavior, and ride performance metrics.
+The analysis highlights how SQL can be effectively used to transform raw booking data into actionable business insights.
+
+---
+
+<h3 align="center">Developed with 💡 by <a href="https://github.com/aditya-datahub">Aditya Sharma</a></h3> ```
+
+---
