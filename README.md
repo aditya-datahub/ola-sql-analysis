@@ -123,7 +123,3 @@ This SQL project provides key insights into Ola’s operational trends, customer
 The analysis highlights how SQL can be effectively used to transform raw booking data into actionable business insights.
 
 ---
-
-<h3 align="center">Developed with 💡 by <a href="https://github.com/aditya-datahub">Aditya Sharma</a></h3> ```
-
----
