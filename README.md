@@ -68,14 +68,15 @@ The dataset Bookings.csv contains ride-level booking details from Ola. Below are
 
 ---
 
-## 🗃️ File Structure
+### 🗂️ File Structure
 
+```bash
 ola-sql-analysis/
 │
-├── Bookings.csv # Dataset
-├── ola_data_analysis.sql # SQL scripts and queries
-├── README.md # Project documentation
-└── LICENSE # MIT license
+├── 📄 Bookings.csv            # Dataset containing Ola ride details
+├── 🧠 ola_data_analysis.sql   # SQL scripts and analytical queries
+├── 📘 README.md               # Project documentation
+└── ⚖️ LICENSE                 # MIT License
 
 ---
 
